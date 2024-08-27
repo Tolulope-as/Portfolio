@@ -88,13 +88,13 @@ function Home() {
                         <img className="project-img" src="images/perfumewebsite.png" width="100%" alt="Chanel Perfumes Website" />
                         <p className="project-name">CHANEL PERFUMES WEBSITE</p>
                         <p className="project-language">HTML CSS JS</p>
-                        <a href="#" className="project-button">VIEW PROJECT</a>
+                        <a href="https://chanel-perfumes-tolu.vercel.app/" className="project-button">VIEW PROJECT</a>
                     </div>
                     <div>
                         <img className="project-img" src="images/weathersite.png" width="100%" alt="Weather Site" />
                         <p className="project-name">WEATHER SITE</p>
                         <p className="project-language">HTML CSS JS</p>
-                        <a href="#" className="project-button">VIEW PROJECT</a>
+                        <a href="https://tolu-viewweather.vercel.app/" className="project-button">VIEW PROJECT</a>
                     </div>
                     <div>
                         <img className="project-img" src="images/restaurant.png" width="100%" alt="Restaurant Website" />
@@ -130,7 +130,7 @@ function Home() {
                         <img className="project-img" src="images/travelsite.png" width="100%" alt="TravelBotswana Website" />
                         <p className="project-name">TRAVELBOTSWANA WEBSITE</p>
                         <p className="project-language">HTML CSS JS</p>
-                        <a href="https://tolu-boomplaywebsite.vercel.app/" className="project-button">VIEW PROJECT</a>
+                        <a href="https://travelbotswana-tolu.vercel.app/" className="project-button">VIEW PROJECT</a>
                     </div>
                 </div>
             </section>
