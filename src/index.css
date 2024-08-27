@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: black;
+  color: white;
+  
+}
+
+header{
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+
+}
+header h1{
+  font-size: 17px;
+  font-weight: 300;
+  margin-left: 40px;
+  color: whitesmoke;
+  z-index: 2;
+}
+.poppins{
+  font-family: "Poppins" , sans-serif;
+}
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+}
+.dm-sans{
+  font-family: "DM Sans", sans-serif;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.menu-icon{
+  margin:20px 20px 0px 0px;
+  display: none;
+}
+.menu{
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.fixed-top{
+  position: fixed;
+  left: 0;
+  right: 0;
+ background: rgba(8, 7, 6,0.7);
+}
+
+nav ul{
+  width:500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  font-weight: 400; 
+  color: whitesmoke;
+  font-size: 14px;
+}
+ul li a:hover{
+  border-bottom: 2px solid #01db92;
+}
+
+.media-link{
+  filter: brightness(0) invert(1);
+  margin-left: 20px;
+}
+.media-link:hover{
+  transform: scale(1.2);
+}
+.home{
+  min-height: 540px;
+  padding:20px 120px;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  justify-content:center;
+}
+
+.about-me{
+  position: relative;
+  z-index: 10;
+  margin-top: 40px;
+
+  
+}
+.about-me h1{
+  margin: 20px 0px;
+  font-size: 57px;
+  position: relative;
+  font-weight: 700;
+
+}
+
+.about-me span{
+  border-bottom: 5px solid #01db92;
+}
+.about-me p.occupation{
+  font-size: 15px;
+  margin: 30px 5px;
+  color: #e3e3f5;
+  line-height: 1.7em;
+}
+.about-me a{
+  border: 0;
+  border-bottom: 2px solid #01db92; 
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px;
+  color: white;
+  background: none;
+  user-select: none;
+  transition: transform 0.6s ease;
+}
+.about-me a:hover{
+  border:  2px solid #01db92;
+}
+.about-me a:active{
+  opacity: 0.5;
+}
+.illustration{
+  width: 140px;
+  position: absolute;
+  right: 120px;
+  top: 430px;
+}
+.profile{
+  height: 500px;
+  position: absolute;
+  top: 0;
+  right:150px;
+}
+#border-line{
+  margin: 20px 120px;
+}
+.languages-grid{
+  padding:20px 120px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 30px;
+  
+}
+.language-type{
+  font-size: 20px;
+  font-weight: 600;
+}
+.experience{
+  font-size: 12px;
+  color: #e3e3f5;
+}
+.projects{
+  height:fit-content;
+  padding:30px 120px;
+}
+.projects h2{
+  font-weight: 300;
+  font-size: 25px;
+  margin: 10px 0px;
+}
+.project-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 35px;
+}
+.project-img{
+  transition: transform 0.4s;
+  max-width: 400px;
+  border-radius: 3px;
+}
+.project-img:hover{
+  transform: scale(1.04);
+  z-index: 2;
+}
+.project-button{
+  border: 0;
+  border-bottom: 2px solid #01db92; 
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  background: none;
+}
+
+.project-name{
+  font-weight: 600;
+  margin: 8px 0px;
+  font-size: 15px;
+
+}
+.project-language{
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #c7c7c8;
+
+}
+footer{
+  background: #141413;
+  padding: 40px;
+  min-height: 250px;
+  display: grid;
+  place-items: center; 
+}
+
+.contact-grid{
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 25px;
+  padding: 30px 0px;
+  margin-bottom: 20px;
+}
+.final-remark{
+  text-align: center;
+ 
+}
+.final-remark h2{
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.final-remark p{
+  color: #d6d6e2;
+  font-size: 15px;
+  line-height: 2em;
+
+}
+
+.contact-form form input,
+textarea{
+  display: block;
+  padding: 20px 10px;
+  outline: 0;
+  border: 0;
+  font-size: 17px;
+  border-bottom: 1px solid #d6d6e2;
+  background: 0;
+  color: rgb(236, 220, 220);
+  width: 100%; 
+}
+.social-links a{
+ color:#141413;
+}
+.submit-button{
+  float: right;
+  border: 0;
+  margin: 10px 0px;
+  border-bottom: 2px solid #01db92; 
+  padding: 5px;
+  color: white;
+  background: none;
+}
+
+
+.name{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:768px){
+  
+ 
+  .menu-icon{
+      display: block;
+      z-index: 20;
+      position: fixed;
+      right: 0;
+      top: 0;
+  }
+  nav ul{
+      background-color: black;
+      position: fixed;
+      width: 100%;
+      min-height:400px;
+      top: 0;
+      margin: 0;
+      display: block;
+      left:-100%;
+      z-index: 20;
+      text-align: center;
+      transition: all .5s;
+      color: whitesmoke;
+      box-shadow:0px 5px 15px rgba(245,245,245,0.2);  
+
+  }
+  .show{
+      left: 0;
+  }
+  ul li {
+      margin: 50px 0px;
+  }
+  ul li a{
+      font-size: 20px;
+  }
+  .profile{
+      position: absolute;
+      top: 0;
+      right:0;
+  }
+  .about-me h1{
+      font-size: 45px;
+  }
+  #border-line{
+      margin: 20px 30px;
+  }
+  
+  .home,
+  .languages-grid,
+  .projects{
+      padding: 30px;
+  }
+  .languages-grid{
+      grid-template-columns: 1fr 1fr;
+  }
+  .illustration{
+      width: 140px;
+      right: 0px;
+      top: 430px;
+  }
+  .contact-grid{
+      grid-template-columns: 1fr;
+  }
+  footer{
+      padding: 30px;
+  }
+}
+
+@media screen and (max-width:430px){
+
+  
+  .home{
+      grid-template-columns: 1fr;
+      place-items: center;
+  }
+  
+.profile{
+  height: 300px;
+  position: relative;
+}
+.profile-container{
+  grid-row: 1/-1; 
+
+}
+.home{
+  text-align: center;
+}
+.about-me h1{
+  font-size: 38px;
+}
+.illustration{
+  top: 60px;
+}
+.languages-grid{
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+.project-container{
+  grid-template-columns: 1fr;
+  
+}
+
+
+}
