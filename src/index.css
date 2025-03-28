@@ -102,7 +102,7 @@ ul li a:hover{
 }
 .about-me h1{
   margin: 20px 0px;
-  font-size: 59px;
+  font-size: 50px;
   position: relative;
   font-weight: 700;
 
@@ -141,7 +141,7 @@ ul li a:hover{
   top: 430px;
 }
 .profile{
-  height: 500px;
+  height: 450px;
   position: absolute;
   top: 0;
   right:150px;
