@@ -32,7 +32,7 @@ function Home() {
             <section id="home" className="home ">
                 <div className="about-me open-sans animate__animated animate__pulse">
                     <h1>Nice to meet you! I'm <span>Arowosegbe Tolulope.</span></h1>
-                    <p className="occupation">I am a Frontend web developer based in Nigeria,my journey started out of curiousity but now i'm proudly experienced in creating engaging web applications and user interfaces that bring about positive user experience.</p>
+                    <p className="occupation">I am a Frontend web developer based in Nigeria,my journey started out of curiousity but now i'm proudly experienced in creating engaging web applications and user interfaces that bring about positive user experience. I’m constantly improving my skills, exploring new technologies, and challenging myself to become a better developer with every project.</p>
                     <a href="#contact">CONTACT ME</a>
                 </div>
                 <div className="profile-container ">
@@ -45,27 +45,21 @@ function Home() {
             <div className="languages-grid poppins ">
                 <div>
                     <p className="language-type">HTML</p>
-                    <p className="experience">Experienced</p>
                 </div>
                 <div>
                     <p className="language-type">CSS</p>
-                    <p className="experience">Experienced</p>
                 </div>
                 <div>
                     <p className="language-type">JAVASCRIPT</p>
-                    <p className="experience">Intermediate</p>
                 </div>
                 <div>
-                    <p className="language-type">REACT</p>
-                    <p className="experience">Intermediate</p>
+                    <p className="language-type">REACT JS</p>
                 </div>
                 <div>
                     <p className="language-type">PYTHON</p>
-                    <p className="experience">Junior</p>
                 </div>
                 <div>
-                    <p className="language-type">DJANGO</p>
-                    <p className="experience">Junior</p>
+                    <p className="language-type">WORDPRESS</p>
                 </div>
             </div>
 
@@ -75,22 +69,39 @@ function Home() {
                     <div>
                         <img className="project-img" src="images/gillion.png" width="100%" loading="lazy" alt="Sunnyside Agency Landing Page" />
                         <p className="project-name">GILLION BLOG WEBSITE</p>
-                        <p className="project-language">REACT CSS FIREBASE</p>
+                        <p className="project-language">REACT JS</p>
                         <a href="https://gillion-blog.vercel.app/" className="project-button">VIEW PROJECT</a>
                     </div>
 
                     <div>
                         <img className="project-img" src="images/book-haven.png" width="100%" loading="lazy" alt="FAQ Accordion" />
                         <p className="project-name">BOOKHAVEN WEBSITE</p>
-                        <p className="project-language">REACT CSS BOOSTRAP</p>
+                        <p className="project-language">REACT JS</p>
                         <a href="https://book-haven-ruddy.vercel.app/" className="project-button">VIEW PROJECT</a>
                     </div>
-
+ <div>
+                        <img className="project-img" src="images/nourishng.png" width="100%" loading="lazy" alt="Nourish ng-website" />
+                        <p className="project-name">NOURISH NG WEBSITE</p>
+                        <p className="project-language">REACT JS</p>
+                        <a href="https://nourishng-app.vercel.app/" className="project-button">VIEW PROJECT</a>
+                    </div>
+                    <div>
+                        <img className="project-img" src="images/threatscan.png" width="100%" loading="lazy" alt="Threat Scan website" />
+                        <p className="project-name">THREAT SCAN WEBSITE</p>
+                        <p className="project-language">REACT JS</p>
+                        <a href="https://threatscan-sand.vercel.app/" className="project-button">VIEW PROJECT</a>
+                    </div>
                     <div>
                         <img className="project-img" src="images/perfumewebsite.png" width="100%" loading="lazy" alt="Chanel Perfumes Website" />
                         <p className="project-name">CHANEL PERFUMES </p>
                         <p className="project-language">HTML CSS JS</p>
                         <a href="https://chanel-perfumes-tolu.vercel.app/" className="project-button">VIEW PROJECT</a>
+                    </div>
+                      <div>
+                        <img className="project-img" src="images/didi-travels.png" width="100%" loading="lazy" alt="Result Summary Page" />
+                        <p className="project-name">DIDI-TRAVELS-WEBSITE</p>
+                        <p className="project-language"> REACT JS </p>
+                        <a href="https://didi-travels-tours.vercel.app/" className="project-button">VIEW PROJECT</a>
                     </div>
 
                     <div>
@@ -99,27 +110,6 @@ function Home() {
                         <p className="project-language">HTML CSS JS</p>
                         <a href="https://tolu-boomplaywebsite.vercel.app/" className="project-button">VIEW PROJECT</a>
                     </div>
-
-                    <div>
-                        <img className="project-img" src="images/didi-travels.png" width="100%" loading="lazy" alt="Result Summary Page" />
-                        <p className="project-name">DIDI-TRAVELS-WEBSITE</p>
-                        <p className="project-language">HTML REACT BOOSTRAP</p>
-                        <a href="https://didi-travels-tours.vercel.app/" className="project-button">VIEW PROJECT</a>
-                    </div>
-                   
-                    <div>
-                        <img className="project-img" src="images/weathersite.png" width="100%" loading="lazy" alt="Weather Site" />
-                        <p className="project-name">WEATHER APP</p>
-                        <p className="project-language">HTML CSS JS</p>
-                        <a href="https://tolu-viewweather.vercel.app/" className="project-button">VIEW PROJECT</a>
-                    </div>
-                    
-                     <div>
-                        <img className="project-img" src="images/budget-tracker.png" width="100%" loading="lazy" alt="Budget tracker" />
-                        <p className="project-name">BUDGET TRACKER</p>
-                        <p className="project-language">HTML CSS JS</p>
-                        <a href="https://tolu-budget-tracker.vercel.app/" className="project-button">VIEW PROJECT</a>
-                    </div> 
                    
                    
                     <div>
