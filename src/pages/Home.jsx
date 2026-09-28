@@ -32,7 +32,7 @@ function Home() {
             <section id="home" className="home ">
                 <div className="about-me open-sans animate__animated animate__pulse">
                     <h1>Nice to meet you! I'm <span>Arowosegbe Tolulope.</span></h1>
-                    <p className="occupation">I am a Frontend web developer based in Nigeria,my journey started out of curiousity but now i'm proudly experienced in creating engaging web applications and user interfaces that bring about positive user experience. I’m constantly improving my skills, exploring new technologies, and challenging myself to become a better developer with every project.</p>
+                    <p className="occupation">I am a Frontend web developer based in Nigeria,my journey started out of curiousity but now i'm proudly experienced in creating engaging websites and user interfaces that bring about positive user experience. I’m constantly improving my skills, exploring new technologies, and challenging myself to become a better developer with every project.</p>
                     <a href="#contact">CONTACT ME</a>
                 </div>
                 <div className="profile-container ">
