@@ -31,8 +31,8 @@ function Home() {
 
             <section id="home" className="home ">
                 <div className="about-me open-sans animate__animated animate__pulse">
-                    <h1>Nice to meet you! I'm <span>Arowosegbe Tolulope.</span></h1>
-                    <p className="occupation">I am a Frontend web developer based in Nigeria,my journey started out of curiousity but now i'm proudly experienced in creating engaging websites and user interfaces that bring about positive user experience. I’m constantly improving my skills, exploring new technologies, and challenging myself to become a better developer with every project.</p>
+                    <h1>Nice to meet you! I'm <span>Tolulope Arowosegbe.</span></h1>
+                    <p className="occupation">I'm a Web developer based in Nigeria ,my journey started out of curiousity but now i'm proudly experienced in creating engaging websites and user interfaces that bring about positive user experience. I’m constantly improving my skills, exploring new technologies, and challenging myself to become a better developer with every project.</p>
                     <a href="#contact">CONTACT ME</a>
                 </div>
                 <div className="profile-container ">
@@ -79,18 +79,22 @@ function Home() {
                         <p className="project-language">REACT JS</p>
                         <a href="https://book-haven-ruddy.vercel.app/" className="project-button">VIEW PROJECT</a>
                     </div>
- <div>
+
+                    <div>
+                        <img className="project-img" src="images/nailedbySQ.png" width="100%" loading="lazy" alt="NailsbySQ-website" />
+                        <p className="project-name">N4ILEDBYSQ WEBSITE</p>
+                        <p className="project-language">REACT JS</p>
+                        <a href="https://n4iledby-sq.vercel.app/" className="project-button">VIEW PROJECT</a>
+                    </div>
+
+
+                     <div>
                         <img className="project-img" src="images/nourishng.png" width="100%" loading="lazy" alt="Nourish ng-website" />
                         <p className="project-name">NOURISH NG WEBSITE</p>
                         <p className="project-language">REACT JS</p>
                         <a href="https://nourishng-app.vercel.app/" className="project-button">VIEW PROJECT</a>
                     </div>
-                    <div>
-                        <img className="project-img" src="images/threatscan.png" width="100%" loading="lazy" alt="Threat Scan website" />
-                        <p className="project-name">THREAT SCAN WEBSITE</p>
-                        <p className="project-language">REACT JS</p>
-                        <a href="https://threatscan-sand.vercel.app/" className="project-button">VIEW PROJECT</a>
-                    </div>
+                   
                     <div>
                         <img className="project-img" src="images/perfumewebsite.png" width="100%" loading="lazy" alt="Chanel Perfumes Website" />
                         <p className="project-name">CHANEL PERFUMES </p>
