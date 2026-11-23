@@ -32,7 +32,7 @@ function Home() {
             <section id="home" className="home ">
                 <div className="about-me open-sans animate__animated animate__pulse">
                     <h1>Nice to meet you! I'm <span>Tolulope Arowosegbe.</span></h1>
-                    <p className="occupation">I'm a Web developer based in Nigeria ,my journey started out of curiousity but now i'm proudly experienced in creating engaging websites and user interfaces that bring about positive user experience. I’m constantly improving my skills, exploring new technologies, and challenging myself to become a better developer with every project.</p>
+                    <p className="occupation">I'm a web developer whose journey started out of curiousity but now i'm proudly experienced in creating engaging websites and user interfaces that bring about the best user experiences. I’m constantly improving my skills, exploring new technologies, and challenging myself to become a better developer with every project.</p>
                     <a href="#contact">CONTACT ME</a>
                 </div>
                 <div className="profile-container ">
@@ -129,7 +129,7 @@ function Home() {
                 <div className="contact-grid">
                     <div className="final-remark">
                         <h2 className="">Contact</h2>
-                        <p className="open-sans">I am still learning but hope to get better in the future. If you love my work and would like to work with me on a future project, please fill out the form.</p>
+                        <p className="open-sans">If you love my work and would like to work with me, please fill out the form.</p>
                     </div>
                     <div className="contact-form">
                         <form action="https://formsubmit.co/b7078fb9e96eee26dca84c3466dafc49" method="POST">
@@ -144,7 +144,7 @@ function Home() {
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tolusarah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                         <img className="media-link" src="images/linkedin.png" width="30px" alt="LinkedIn" />
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="mailto:arowosegbetolu8@gmail.com">
+                    <a target="_blank" rel="noopener noreferrer" href="mailto:tolulope.mn@gmail.com">
                         <img className="media-link" src="images/email.png" width="30px" alt="Email" />
                     </a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Tolulope-as">
